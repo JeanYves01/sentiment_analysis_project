@@ -1,0 +1,16 @@
+# Create a conda environment
+"conda create env_name"
+"conda activate env_name"
+
+# Install PyTorch with CUDA for GPU acceleration 
+"pip install torch --extra-index-url https://download.pytorch.org/whl/cu118"
+
+# Install other dependencies
+"pip install transformers pandas tqdm openpyxl"
+
+# Necessary files
+"raw_data.xlsx: The Excel file containing the conversations to summarize."
+"script_name.py: The Python script to generate the summaries "
+
+# Run the Python script with the following command:
+"python script_name.py"
